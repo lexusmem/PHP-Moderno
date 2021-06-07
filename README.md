@@ -52,3 +52,27 @@ Utilizada muito em API's web service e é uma linguagem de marcação e programa
 * or - ou
 * xor - parecido com OR, porem será verdadeiro quando apenas um lado da comparação for verdadeiro, exemplo: (5>4 xor 5>4) = FALSE / (5>4 xor 5<4) = TRUE
 * ! - negação, inverte o resultado.
+
+> Introdução a Verbos HTTP p/ Formularios
+
+### HTTP - Hipertext transfer Protocol
+Protocolo para trafego de dados na web
+
+### Request e Response
+
+### Metodos/Verbos
+Metodos ou Verbos HTTP definem qual a ação deve ser realizada.
+
+> Manipulação de Formularios com PHP
+
+### Metodo - $_GET
+
+Quando utilizamos o GET, os parâmetros são passados no cabeçalho da requisição.
+Por isso, podem ser vistos pela URI, como no caso do nosso formulário de login.
+Esse verbo é o padrão para enviar dados quando submetemos um formulário HTTP.
+
+### Metodo - $_POST
+Ao contrário do GET, envia os parâmetros no corpo da requisição HTTP. Escondendo eles da URI.
+
+> Aprendendo utilizar metodo de requisão e resposta na Web c/ PHP
+
