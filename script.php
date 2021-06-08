@@ -9,16 +9,35 @@ $categoria[] = 'idoso';
 $nome = $_POST['nome'];
 $idade = $_POST['idade'];
 
-# Print_r - Imprime informação sobre uma variável de forma legível.
-print_r ($categoria);
-echo "<br>";
-echo "$categoria <br>";
+if(empty($nome))
+{
+    echo 'O nome não pode ser vazio.';
+    return;
+}
 
-#Var_dump imprime o dado da variavel e o tipo da variavel
-var_dump($nome);
-echo "<br>";
-var_dump($idade);
-echo "<br>";
+if(strlen($nome) < 3)
+{
+    echo 'Nome deve conter mais que 3 caracteres.';
+    return;
+}
+
+if(strlen($nome) > 40)
+{
+    echo 'Nome muito extenso.';
+    return;
+}
+
+if(empty($idade))
+{
+    echo 'A idade não pode estar vazia.';
+    return;
+}
+
+if(!is_numeric($idade))
+{
+    echo 'Informe um numero para a idade.';
+    return;
+}
 
 if($idade>= 6 && $idade <= 12)
 {

@@ -76,3 +76,6 @@ Ao contrário do GET, envia os parâmetros no corpo da requisição HTTP. Escond
 
 > Aprendendo utilizar metodo de requisão e resposta na Web c/ PHP
 
+> Implementando técnicas de validação de dados
+
+Validação de dados inseridos no formularios.

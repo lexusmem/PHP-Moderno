@@ -11,7 +11,7 @@
 
 <body>
 
-<p>FORMULÁRIO PARA INSCRIÇÃO DE COMPETIDORES</p>
+    <p>FORMULÁRIO PARA INSCRIÇÃO DE COMPETIDORES</p>
 
     <form action="script.php" method="post">
         <p>Seu nome: <input type="text" name="nome" /></p>
