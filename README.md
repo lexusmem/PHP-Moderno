@@ -79,3 +79,6 @@ Ao contrário do GET, envia os parâmetros no corpo da requisição HTTP. Escond
 > Implementando técnicas de validação de dados
 
 Validação de dados inseridos no formularios.
+
+> Introção a Funções em PHP
+
