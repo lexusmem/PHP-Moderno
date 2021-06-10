@@ -82,3 +82,6 @@ Validação de dados inseridos no formularios.
 
 > Introção a Funções em PHP
 
+### Funções
+
+Criação de funções nome resevado para a ciração de função é funcition nome (string_$nome)
